@@ -39,7 +39,7 @@ export default function Home({articles}:any) {
 
 export const getStaticProps = async () => {
   const res = await fetch(
-    "http://localhost:5000/api/v1/portfoilio"
+    "https://portfolio-server-w83j.onrender.com/api/v1/portfoilio"
   );
   const articles = await res.json();
 
