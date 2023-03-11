@@ -16,7 +16,7 @@ console.log(articles)
       <article className={projectsStyles.items}>
         <>
         {articles.tasks.map((items:any)=>{return(
-<div className={projectsStyles.item}> 
+<div key={items._id} className={projectsStyles.item}> 
 
 <div className={projectsStyles.box}> 
  <img src={items.image} alt =''/> 

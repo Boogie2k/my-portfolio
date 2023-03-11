@@ -1,6 +1,7 @@
 export const social = {
   icons: [
     {
+      id: 1,
       img: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +16,9 @@ export const social = {
       ),
       link: "https://github.com/Boogie2k",
     },
+
     {
+      id: 2,
       img: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +33,9 @@ export const social = {
       ),
       link: "https://twitter.com/oghosa_benjamin",
     },
+
     {
+      id: 3,
       img: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -46,6 +51,7 @@ export const social = {
       link: "https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BNtr918VeRT6XtGfswsbqeQ%3D%3D",
     },
     {
+      id: 4,
       img: (
         <svg
           xmlns="http://www.w3.org/2000/svg"

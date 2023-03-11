@@ -11,7 +11,7 @@ const Contact = () => {
        <p className={contactStyles.paragraph}>If there is one thing I know how to do, it is developing something. 
         As an engineering and developer, developing new software, solving problems are things I love doing, I am always
         searching for opportunities to improve my skills learn new things and adapt to new technology, I am a fast learner and a team player
-        if you have any project that you'd like to get started don't hesitate to contact me. I promise I will not let you down.
+        if you have any project that you would like to get started do not hesitate to contact me. I promise I will not let you down.
        </p>
 
 
@@ -23,7 +23,7 @@ const Contact = () => {
         {social.icons.map((icon:any) => {
           const { img, link } = icon;
           return (
-            <li>
+            <li key={new Date().getTime()}>
               <a target="_blank" href={link}>
                 {img}
               </a>

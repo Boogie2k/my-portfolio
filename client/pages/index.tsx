@@ -22,9 +22,9 @@ export default function Home({articles}:any) {
 
     <ul className={styles.socials}>
         {social.icons.map((icon:any) => {
-          const { img, link } = icon;
+          const { img, link, id } = icon;
           return (
-            <li>
+            <li key = {id}>
               <a target="_blank" href={link}>
                 {img}
               </a>
