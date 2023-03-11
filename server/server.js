@@ -76,7 +76,7 @@ const start = async () => {
 
     let port = 5000;
 
-    app.listen(port, console.log(`server on port ${port} is up`));
+    app.listen(port, console.log(process.env.MONGO_URI));
   } catch (error) {
     console.log(error);
   }
