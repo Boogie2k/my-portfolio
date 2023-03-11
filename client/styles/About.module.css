@@ -1,0 +1,73 @@
+ .about {
+     font-family: 'poppins', sans-serif;
+     padding: 4%;
+     min-height: 91vh;
+     background: #1b2731;
+     color: white;
+ }
+
+ .title {
+     text-align: center;
+     text-decoration: underline blue;
+     color: white;
+     margin-bottom: 2%;
+
+ }
+
+ /* .exp {
+     border-right: 1px solid lightblue;
+
+ }
+
+ .intro {
+     border-bottom: 1px solid lightblue;
+     min-height: 50%;
+ }
+
+ .edu {
+     border-bottom: 1px solid lightblue;
+     min-height: 50%;
+ } */
+
+ .exps,
+ .edus,
+ .skills {
+     color: red;
+ }
+
+ .skillsList {
+     color: white;
+ }
+
+ .schoolDuration,
+ .expYear {
+     opacity: 0.5;
+ }
+
+ @media screen and (max-width:964px) {
+
+     /*  .about {} */
+
+     .exp {
+         border-right: none;
+
+
+     }
+
+     .intro {
+         border-bottom: none;
+         min-height: 0;
+     }
+
+     .edu {
+
+
+         border-bottom: none;
+         min-height: 0;
+     }
+
+     .skillsSet {
+         margin-bottom: 3%;
+     }
+
+ }

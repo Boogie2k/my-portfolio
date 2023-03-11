@@ -1,0 +1,168 @@
+.hero {
+    padding: 4% 4%;
+    background: black;
+    min-height: 91vh;
+    font-family: 'poppins', sans-serif;
+    /*   padding: 28vh 0;
+    width: 100vw;
+    width: 100%;
+ */
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+
+/* .hero article {
+    padding: 0 4%;
+}
+ */
+.hero img {
+    border-radius: 50%;
+}
+
+.hero article {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+
+.hero article>div {
+    width: 50%;
+
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.details p {
+    text-align: left;
+
+    width: 100%;
+}
+
+.details h4 {
+
+    text-align: left;
+    font-size: 2.5rem;
+    width: 100%;
+    color: white;
+}
+
+.details h5 {
+    text-align: left;
+    font-size: 1.5rem;
+    width: 100%;
+    color: blue;
+}
+
+.desc {
+    color: white;
+    font-size: 1.7rem;
+}
+
+.btns {
+    margin: 0 auto;
+}
+
+.smallHero {
+    display: none;
+}
+
+.img {
+    margin: 0 auto;
+    color: white;
+    width: 30px;
+    height: 30px;
+    animation: animateDown infinite 1.5s;
+    margin-top: 5%;
+}
+
+@keyframes animateDown {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(5px);
+    }
+
+    60% {
+        transform: translateY(3px);
+    }
+}
+
+
+
+@media screen and (max-width:964px) {
+
+    .smallHero {
+        padding-top: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+
+    .smallHero article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .smallHero article>div {
+        text-align: left;
+
+    }
+
+    .smallHero h1 {
+        font-size: 2rem;
+    }
+
+    .smallHero h4 {
+        font-size: 1.5rem;
+    }
+
+    .details h4 {
+        text-align: center;
+    }
+
+    .details h5 {
+        text-align: center;
+
+    }
+
+    .details p {
+        text-align: center;
+    }
+
+    .desc {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+
+    .bigHero {
+        display: none;
+
+    }
+
+
+}

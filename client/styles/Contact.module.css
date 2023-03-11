@@ -1,0 +1,44 @@
+.contact {
+    font-family: 'poppins', sans-serif;
+    padding: 1% 4%;
+    background: black;
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    min-height: 91vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline blue;
+}
+
+.intro {
+    text-align: center;
+    width: 50%;
+}
+
+.paragraph {
+    width: 50%;
+
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+
+    width: 32%;
+    justify-content: space-between;
+    margin-top: 5em;
+}
+
+.socials li {
+    list-style: none;
+}
+
+.socials a {
+    color: white;
+}

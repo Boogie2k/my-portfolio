@@ -1,0 +1,149 @@
+.projects {
+    min-height: 91vh;
+    font-family: 'poppins', sans-serif;
+    background: black;
+    padding: 1% 4%;
+}
+
+.title {
+    color: white;
+    text-decoration: underline blue;
+    text-align: center;
+}
+
+.intro {
+    color: white;
+    text-align: center;
+}
+
+.intro>span {
+    color: blue;
+    font-size: 1.2rem;
+    font: bolder;
+}
+
+
+
+.items {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 2em;
+    row-gap: 1em;
+}
+
+.item {
+    width: 30em;
+    min-height: 35em;
+
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item>.box {
+    width: 27em;
+    min-height: 20em;
+
+}
+
+.item>.box>img {
+    width: 90%;
+    min-height: 90%;
+    transition: all 0.5s ease-in
+}
+
+.item>.box>img:hover {
+    width: 100%;
+    min-height: 100%;
+    transition: all 0.5s ease-out;
+}
+
+.projectName {
+    text-align: left;
+
+
+    width: 100%;
+    color: aqua;
+}
+
+.projectDesc {
+    color: white;
+}
+
+.item ul {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 0;
+    margin-top: 1.5%;
+
+}
+
+.item ul li {
+    color: white;
+    list-style: none;
+    margin-right: 2%;
+
+    border-radius: 3px;
+    padding: 1%;
+    background: #0b5ed7;
+}
+
+
+.gitLink {
+
+    text-align: center;
+    color: white
+}
+
+.gitLink a {
+    color: #0dcaf0;
+}
+
+@media screen and (max-width:964px) {
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+
+
+
+
+    }
+
+    .item {
+        width: 28em;
+        min-height: 28em;
+
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item>.box {
+
+        margin-bottom: 0;
+    }
+
+    .item>.box>img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .item>.box>img:hover {
+        width: 100%;
+        min-height: 100%;
+        transition: all 0.5s linear;
+    }
+}
