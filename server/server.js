@@ -72,11 +72,11 @@ app.post("/api/v1/portfoilio", async (req, res) => {
 });
 const start = async () => {
   try {
-    await connect(process.env.MONGO_URI);
+    await connect();
 
     let port = 5000;
 
-    app.listen(port, console.log(process.env.MONGO_URI));
+    app.listen(port, console.log("server is up on port " + port));
   } catch (error) {
     console.log(error);
   }
