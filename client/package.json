@@ -23,7 +23,6 @@
     "react": "18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "18.2.0",
-    "react-fade-in": "^2.0.1",
     "react-markdown": "^8.0.5",
     "react-reveal": "^1.2.2",
     "react-ui-scrollspy": "^2.3.0",
