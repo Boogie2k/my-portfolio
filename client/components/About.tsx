@@ -1,7 +1,6 @@
 import aboutStyles from "../styles/About.module.css"
-import Fade from 'react-reveal'
-import LightSpeed from 'react-reveal'
-import { type } from "os"
+
+
 
 const About = () => {
 
@@ -12,21 +11,21 @@ let skills:Array<String> =['HTML', 'CSS', 'JavaScript', 'ReactJs', 'typeScript',
 let experience =[{id:1,type:'ICT Instructor', work:'Bright Future Educational Centre', year:'2022'},{id:2,type:'Student Intern', work:'Ipson Technology', year:'2022'} ]
   return (
     <section className={aboutStyles.about}>
-      <LightSpeed left>
+     {/*  <LightSpeed left> */}
       <h4 className={aboutStyles.title}>About me</h4>
-</LightSpeed>
+{/* </LightSpeed> */}
       <div className="row">
 
         <div  className={`col-sm-12 col-md-6 ${aboutStyles.exp}`}>
-         <Fade bottom>
+        {/*  <Fade bottom> */}
           <p className={aboutStyles.intro}>
             I am a web Devloper with skills both in Frontend and Backend development
             I specialise mainly on Frontend Development. I have built various web applications using HTML, CSS,
             JavaScript, React, mongoDB, nodeJS, express and so much more
-            </p></Fade> 
+            </p>{/* </Fade>  */}
     
   <article>
-         <Fade bottom>
+       {/*   <Fade bottom> */}
         <h4 className={aboutStyles.exps}>Experience</h4>
         {experience.map(item=>{
           return(
@@ -36,11 +35,11 @@ let experience =[{id:1,type:'ICT Instructor', work:'Bright Future Educational Ce
             <p  className= {aboutStyles.expYear}>{item.year}</p>
          </div> 
       )
-        })}</Fade>
+        })}{/* </Fade> */}
       </article>
             </div> <div className= "col-sm-12 col-md-6">
               <article className={aboutStyles.edu}>
-                 <Fade bottom>
+               {/*   <Fade bottom> */}
               <h4 className={aboutStyles.edus}>Eduction</h4>
 
 {school.map(item=>{return(
@@ -50,16 +49,16 @@ let experience =[{id:1,type:'ICT Instructor', work:'Bright Future Educational Ce
   <p className={aboutStyles.schoolName}>{item.name}</p>
   <p className={aboutStyles.schoolDuration}>{item.duration}</p>
   </div>
-)})}</Fade>
+)})}{/* </Fade> */}
            </article>
  
            <article className={aboutStyles.skillsSet}>
-             <Fade bottom>
+             {/* <Fade bottom> */}
   <h4 className= {aboutStyles.skills}>Skills</h4>
   <ul className={aboutStyles.skillsList}>
   {skills.map(items=>{return(
    <li key={new Date().getTime()}>{items}</li>
-  )})}</ul></Fade>
+  )})}</ul>{/* </Fade> */}
            </article>
             </div>
       </div>

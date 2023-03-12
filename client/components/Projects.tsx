@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import projectsStyles from "../styles/Projects.module.css"
-/* import Fade from 'react-reveal'
-import LightSpeed from 'react-reveal' */
+
 import ReactMarkdown from "react-markdown";
 const Projects = ({articles}:any) => {
 console.log(articles)
