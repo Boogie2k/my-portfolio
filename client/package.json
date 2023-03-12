@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -24,7 +24,6 @@
     "react-bootstrap": "^2.7.2",
     "react-dom": "18.2.0",
     "react-markdown": "^8.0.5",
-    "react-reveal": "^1.2.2",
     "react-ui-scrollspy": "^2.3.0",
     "typeface-poppins": "^1.1.13",
     "typescript": "4.9.5"

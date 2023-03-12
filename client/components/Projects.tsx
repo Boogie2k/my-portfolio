@@ -1,18 +1,18 @@
 import Link from 'next/link'
 import React from 'react'
 import projectsStyles from "../styles/Projects.module.css"
-import Fade from 'react-reveal'
-import LightSpeed from 'react-reveal'
+/* import Fade from 'react-reveal'
+import LightSpeed from 'react-reveal' */
 import ReactMarkdown from "react-markdown";
 const Projects = ({articles}:any) => {
 console.log(articles)
   return (
 
     <section className={projectsStyles.projects}>
-       <LightSpeed left>
+      {/*  <LightSpeed left> */}
       <h4 className={projectsStyles.title}>Projects</h4> 
-      <p className={projectsStyles.intro}> <span>Less talk, more codes!</span> Below are some of the projects I have built and contributed to </p></LightSpeed>
-<Fade bottom>
+      <p className={projectsStyles.intro}> <span>Less talk, more codes!</span> Below are some of the projects I have built and contributed to </p>{/* </LightSpeed> */}
+{/* <Fade bottom> */}
       <article className={projectsStyles.items}>
         <>
         {articles.tasks.map((items:any)=>{return(
@@ -37,7 +37,7 @@ console.log(articles)
       </article>
 
       <p className={projectsStyles.gitLink}>Other Projects can be explored in  <a href='wwww.github.com.boogie2k' target='_blank'>my github profile</a> </p>
-      </Fade>
+  {/*     </Fade> */}
     </section>
   )
 }
