@@ -29,7 +29,7 @@ const Hero = () => {
     <article>  {/* <Fade  right>
         */}
        
-        <Image src="/images/ben.jpg" width="400" height="400"alt =''/>
+        <Image src="/images/ben.jpg" width ='1' height ='1' alt =''/>
      {/*  </Fade> <Fade  left> */}
     <div  className={heroStyles.details} >
       <p style={{color:'blue'}}>Hi, my name is</p>
