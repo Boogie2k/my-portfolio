@@ -161,11 +161,11 @@
         font-size: 1rem;
     }
 
-    /*  .smallHero img {
-        width: 20em;
-        height: 20em;
+    .smallHero img {
+        width: 10em;
+        height: 10em;
     }
- */
+
 
     .bigHero {
         display: none;
