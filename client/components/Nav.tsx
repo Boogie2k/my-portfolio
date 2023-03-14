@@ -6,7 +6,7 @@ import styles from "../styles/Nav.module.css"
 
 function Navs() {
   return (
-    <Navbar className= {`${styles.nav} sticky-top`} color="light" bg="dark" expand="lg">
+    <Navbar className= {`${styles.nav} sticky-top`} style={{width:'100vw'}}  color="light" bg="dark" expand="lg">
       <Container>
         <Navbar.Brand className='col-8' style={{color:'white'}} href="#home">Oghosa Benjamin</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
