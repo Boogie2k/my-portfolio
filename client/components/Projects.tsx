@@ -14,7 +14,7 @@ console.log(articles)
 {/* <Fade bottom> */}
       <article className={projectsStyles.items}>
         <>
-      {/*   {articles.tasks.map((items:any)=>{return(
+        {articles.tasks.map((items:any)=>{return(
 <div key={items._id} className={projectsStyles.item}> 
 
 <div className={projectsStyles.box}> 
@@ -30,7 +30,7 @@ console.log(articles)
  </ReactMarkdown>
 </div> 
 </div>
-        )})} */}
+        )})}
       
 </>
       </article>
