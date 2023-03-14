@@ -282,6 +282,7 @@
 .home {
   background: black;
   border: 1px solid red;
+  width: 100vw;
 }
 
 .socials {
