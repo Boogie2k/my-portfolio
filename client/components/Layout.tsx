@@ -15,7 +15,7 @@ export default function Layout({children}:any) {
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"></link>
     </Head>
     <Navs/>
-    <div style={{width:'100vw'}}>{children}</div>
+    <div >{children}</div>
     </>
   )
 }
