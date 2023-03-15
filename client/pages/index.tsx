@@ -19,7 +19,7 @@ export default function Home({articles}:any) {
    <div id="about"> <About/> </div>
    <div id="projects"> <Projects articles={articles}/> </div>
    <div id="contact"><Contact/></div>
-{/* 
+
     <ul className={styles.socials}>
         {social.icons.map((icon:any) => {
           const { img, link, id } = icon;
@@ -31,7 +31,7 @@ export default function Home({articles}:any) {
             </li>
           );
         })}
-      </ul> */}
+      </ul> 
    </ScrollSpy>
     </section>
   )
