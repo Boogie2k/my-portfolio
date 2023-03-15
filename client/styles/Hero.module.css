@@ -33,6 +33,7 @@
     justify-content: space-around;
 
 
+
 }
 
 
@@ -60,11 +61,16 @@
     color: white;
 }
 
+.hi {
+    font-size: 1.7rem;
+}
+
 .details h5 {
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     width: 100%;
-    color: blue;
+    color: #61dafb;
+
 }
 
 .desc {
@@ -76,15 +82,24 @@
     margin: 0 auto;
 }
 
+/* .containers {
+    border: 1px solid red;
+}
+ */
+.contact {
+    width: 100%;
+}
+
 .smallHero {
     display: none;
 }
 
-.img {
+.arrowDown {
     margin: 0 auto;
     color: white;
-    width: 30px;
-    height: 30px;
+    width: 1.875em;
+    height: 1.875em;
+    ;
     animation: animateDown infinite 1.5s;
     margin-top: 5%;
 }
@@ -110,50 +125,71 @@
 
 
 
+
 @media screen and (max-width:964px) {
 
     .smallHero {
-        padding-top: 1%;
+        padding-top: 10%;
         display: flex;
         justify-content: center;
         align-items: center;
 
+
     }
 
+    .details {
+
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .details .btn {
+        margin-left: 5%;
+    }
 
 
 
     .smallHero article {
+
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+
+
     }
 
+    /* 
+    .smallHero .container {
+    }
+ */
     .smallHero article>div {
         text-align: left;
+
+        width: 100%;
 
     }
 
     .smallHero h1 {
         font-size: 2rem;
+
     }
 
     .smallHero h4 {
         font-size: 1.5rem;
+        text-align: left;
     }
 
     .details h4 {
-        text-align: center;
+        text-align: left;
     }
 
     .details h5 {
-        text-align: center;
-
+        text-align: left;
+        color: #61dafb;
     }
 
     .details p {
-        text-align: center;
+        text-align: left;
     }
 
     .desc {
@@ -162,8 +198,9 @@
     }
 
     .smallHero img {
-        width: 10em;
-        height: 10em;
+        width: 14em;
+        height: 14em;
+        margin: 2% auto;
     }
 
 

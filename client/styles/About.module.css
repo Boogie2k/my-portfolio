@@ -37,6 +37,7 @@
 
  .skillsList {
      color: white;
+     text-transform: capitalize;
  }
 
  .schoolDuration,
@@ -69,5 +70,7 @@
      .skillsSet {
          margin-bottom: 3%;
      }
+
+
 
  }
