@@ -18,7 +18,7 @@ const Hero = () => {
       </div>    </div>{/* </Fade>  <Fade  right> */}
        
        
-        <Image src="/images/ben.jpg" width="1" height="1"alt =''/>
+        <Image src="/images/ben.jpg" width="400" height="400"alt =''/>
      {/*  </Fade> */}
         </article>
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className={`bi bi-chevron-down ${heroStyles.arrowDown}`} viewBox="0 0 16 16">
@@ -29,7 +29,7 @@ const Hero = () => {
     <article>  {/* <Fade  right>
         */}
        
-        <Image src="/images/ben.jpg" width ='1' height ='1' alt =''/>
+        <Image src="/images/ben.jpg" width ='224' height ='224' alt =''/>
      {/*  </Fade> <Fade  left> */}
     <div  className={heroStyles.details} >
       <p  style={{color:'#61dafb', fontSize:'1.2rem'}}>Hi, my name is</p>
