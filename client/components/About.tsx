@@ -7,7 +7,7 @@ const About = () => {
 
 
 let school=[{id:1,name:'Columbia high school',type:"secondary school", duration:'2014 - 2016'},{id:2,name:'University of Benin',type:"BENG in Computer Engineering", duration:'2017 - 2023'}]
-let skills:Array<String> =['HTML', 'CSS', 'JavaScript', 'ReactJs', 'typeScript', 'nestJS', 'NodeJS','ExpressJs', 'MongoDB']
+let skills:Array<String> =['HTML', 'CSS', 'JavaScript', 'ReactJs', 'typeScript', 'nestJS', 'NodeJS','ExpressJs', 'MongoDB', 'React Native']
 let experience =[{id:1,type:'ICT Instructor', work:'Bright Future Educational Centre', year:'2022'},{id:2,type:'Student Intern', work:'Ipson Technology', year:'2022'} ]
   return (
     <section className={aboutStyles.about}>
