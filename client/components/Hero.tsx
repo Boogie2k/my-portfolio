@@ -12,8 +12,8 @@ const Hero = () => {
      
           <p className={heroStyles.hi} style={{color:'#61dafb'}}>Hi, my name is</p>
          <h4>Oghosa Benjamin</h4>   
-         <h5>Fullstack web developer</h5>
-          <p className={heroStyles.desc}>I am a fullstack web developer with skills in HTML, CSS, JavaScript,NodeJS,mongoDB, my area of specialty is frontend development</p>
+         <h5>Fullstack developer</h5>
+          <p className={heroStyles.desc}>I am a fullstack developer with skills in HTML, CSS, JavaScript,NodeJS,mongoDB, React Native my area of specialty is frontend development</p>
       <div className={ `${heroStyles.contact}`}> <a href='mailto:oghosabenjamin@gmail.com' className="btn btn-primary" target="_blank"> Contact me</a> 
       </div>    </div>{/* </Fade>  <Fade  right> */}
        
