@@ -13,6 +13,7 @@ export default function Layout({children}:any) {
      <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" ></link>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"></link>
+<link rel="icon" type="image/svg+xml" href="/images/icon.jpg" />
     </Head>
     <Navs/>
     <div >{children}</div>
