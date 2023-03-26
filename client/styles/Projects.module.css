@@ -150,13 +150,10 @@
     .item>.box>img {
         width: 19.68em;
         height: 14.58em;
+        pointer-events: none;
     }
 
-    .item>.box>img:hover {
-        width: 19.68em;
-        height: 14.58em;
 
-    }
 
 
 }
