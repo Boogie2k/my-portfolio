@@ -19,9 +19,9 @@ let experience =[{id:1,type:'ICT Instructor', work:'Bright Future Educational Ce
         <div  className={`col-sm-12 col-md-6 ${aboutStyles.exp}`}>
         {/*  <Fade bottom> */}
           <p className={aboutStyles.intro}>
-            I am a web Devloper with skills both in Frontend and Backend development
+            I am a web and app Devloper with skills both in Frontend and Backend development
             I specialise mainly on Frontend Development. I have built various web applications using HTML, CSS,
-            JavaScript, React, mongoDB, nodeJS, express and so much more
+            JavaScript, React, mongoDB, nodeJS, express,React Native and so much more
             </p>{/* </Fade>  */}
     
   <article>
